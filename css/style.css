@@ -81,7 +81,7 @@ body {
 
 #slider {
     position: relative;
-    background-image: url("/img/writing-1149962_1920.jpg");
+    background-image: url("../img/writing-1149962_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px; 
@@ -240,14 +240,19 @@ p {
 }
 
 .quality img {
-    height: 250px;
-    padding-top: 50px;
+    width: 100%;
+    height: auto;
 }
-
+.quality__content {
+    /* border: 3px solid red; */
+    max-width: 100%;
+    margin-top: 30px;
+}
 .quality .title {
     color: #ffffff;
     font-weight: 500;
-    padding-top: 60px;
+    /* padding-top: 60px; */
+    /* border: 3px solid red; */
     font-family: 'Open Sans',Arial,sans-serif;
 }
 
@@ -288,7 +293,7 @@ p {
 .subject-areas {
     position: relative;
     margin-top: 100px;
-    background-image: url('/img/creative-designer-editing-34199.jpg');
+    background-image: url('../img/creative-designer-editing-34199.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px; 
@@ -299,12 +304,10 @@ p {
 .service-areas {
     position: relative;
     margin-top: 100px;
-    background-image: url('/img/creative-designer-editing-34199.jpg');
+    background-image: url('../img/creative-designer-editing-34199.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px; 
     color: #fff;
-/*    padding-bottom: 50px;*/
 }
 .areas-overlay {
     position: absolute;
@@ -479,7 +482,7 @@ a {
 
 .our-vision {
     position: relative;
-    background-image: url("/img/arm-1284248_1920.jpg");
+    background-image: url("../img/arm-1284248_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 30em; 
